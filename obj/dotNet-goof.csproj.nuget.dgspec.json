@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/pstember/Git/dotNet-goof/dotNet-goof.csproj": {}
+    "/Users/swschmidt/Snyk/Workspace/dotNet-goof-github/dotNet-goof.csproj": {}
   },
   "projects": {
-    "/Users/pstember/Git/dotNet-goof/dotNet-goof.csproj": {
+    "/Users/swschmidt/Snyk/Workspace/dotNet-goof-github/dotNet-goof.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/pstember/Git/dotNet-goof/dotNet-goof.csproj",
+        "projectUniqueName": "/Users/swschmidt/Snyk/Workspace/dotNet-goof-github/dotNet-goof.csproj",
         "projectName": "dotNet-goof",
-        "projectPath": "/Users/pstember/Git/dotNet-goof/dotNet-goof.csproj",
-        "packagesPath": "/Users/pstember/.nuget/packages/",
-        "outputPath": "/Users/pstember/Git/dotNet-goof/obj/",
+        "projectPath": "/Users/swschmidt/Snyk/Workspace/dotNet-goof-github/dotNet-goof.csproj",
+        "packagesPath": "/Users/swschmidt/.nuget/packages/",
+        "outputPath": "/Users/swschmidt/Snyk/Workspace/dotNet-goof-github/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "/Users/pstember/.nuget/NuGet/NuGet.Config"
+          "/Users/swschmidt/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
@@ -51,10 +48,16 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
         }
       }
     }

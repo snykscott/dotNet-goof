@@ -4862,11 +4862,12 @@
       ]
     },
     "System.Xml.XmlSerializer/4.3.0": {
-      "sha512": "VShQJhOxgD/5M2Z1IWm1vMaSqlbjo1zdFf8H7Ahte6bTvSUhUko/gDpAVVhGgGgTDeue4QyNg1fu1Zz2GKSEuQ==",
+      "sha512": "MYoTCP7EZ98RrANESW05J5ZwskKDoN0AuZ06ZflnowE50LTpbR5yRg3tHckTVm5j/m47stuGgCrCHWePyHS70Q==",
       "type": "package",
       "path": "system.xml.xmlserializer/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -4939,23 +4940,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/pstember/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "/Users/swschmidt/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/pstember/Git/dotNet-goof/dotNet-goof.csproj",
+      "projectUniqueName": "/Users/swschmidt/Snyk/Workspace/dotNet-goof-github/dotNet-goof.csproj",
       "projectName": "dotNet-goof",
-      "projectPath": "/Users/pstember/Git/dotNet-goof/dotNet-goof.csproj",
-      "packagesPath": "/Users/pstember/.nuget/packages/",
-      "outputPath": "/Users/pstember/Git/dotNet-goof/obj/",
+      "projectPath": "/Users/swschmidt/Snyk/Workspace/dotNet-goof-github/dotNet-goof.csproj",
+      "packagesPath": "/Users/swschmidt/.nuget/packages/",
+      "outputPath": "/Users/swschmidt/Snyk/Workspace/dotNet-goof-github/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "/Users/pstember/.nuget/NuGet/NuGet.Config"
+        "/Users/swschmidt/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"
@@ -4989,10 +4986,16 @@
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
       }
     }
   }
